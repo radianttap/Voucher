@@ -116,7 +116,8 @@
 {
     // We send/receive information as a NSDictionary written out
     // as NSData, so convert from NSData --> NSDictionary
-    NSDictionary *dict = (NSDictionary *)[NSKeyedUnarchiver unarchiveObjectWithData:data];
+	NSError *error = nil;
+    NSDictionary *dict = (NSDictionary *)[NSKeyedUnarchiver unarchivedObjectOfClass:NSDictionary.class fromData:data error:&error];
     [self handleIncomingRequestDictionary:dict];
 }
 
@@ -139,7 +140,8 @@
                 // Don't send back any response data, except our display name
                 responseDict = @{@"displayName" : _weakSelf.displayName};
             }
-            NSData *responseData = [NSKeyedArchiver archivedDataWithRootObject:responseDict];
+			NSError *archiveError = nil;
+            NSData *responseData = [NSKeyedArchiver archivedDataWithRootObject:responseDict requiringSecureCoding:YES error:&archiveError];
             [_weakSelf sendData:responseData];
 
         });

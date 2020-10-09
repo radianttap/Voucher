@@ -150,16 +150,21 @@
 - (void)sendAuthRequest
 {
     NSDictionary *requestDict = @{@"displayName" : self.displayName};
-    NSData *requestData = [NSKeyedArchiver archivedDataWithRootObject:requestDict];
-    [self sendData:requestData];
+	
+	NSError *archiveError = nil;
+	NSData *requestData = [NSKeyedArchiver archivedDataWithRootObject:requestDict requiringSecureCoding:YES error:&archiveError];
+
+	[self sendData:requestData];
 }
 
 
 - (void)handleReceivedData:(NSData *)data
 {
     [super handleReceivedData:data];
-    NSDictionary *responseDict = [NSKeyedUnarchiver unarchiveObjectWithData:data];
-    NSData *authData = responseDict[@"authData"];
+	NSError *error = nil;
+	NSDictionary *responseDict = (NSDictionary *)[NSKeyedUnarchiver unarchivedObjectOfClass:NSDictionary.class fromData:data error:&error];
+
+	NSData *authData = responseDict[@"authData"];
     NSString *responderDisplayName = responseDict[@"displayName"];
     if (self.completionHandler) {
         self.completionHandler(authData, responderDisplayName, nil);
