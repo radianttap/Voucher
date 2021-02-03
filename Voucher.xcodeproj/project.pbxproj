@@ -119,6 +119,7 @@
 		659AF1971BEEF1A30031B3A5 /* Voucher.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Voucher.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		659AF1CA1BEF1D3E0031B3A5 /* Voucher iOS App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Voucher iOS App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		659AF1E01BEF1D530031B3A5 /* Voucher tvOS App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Voucher tvOS App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D0AF8B8525CAE8050043900B /* Package.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Package.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -221,6 +222,7 @@
 		659AF16A1BEEF1510031B3A5 = {
 			isa = PBXGroup;
 			children = (
+				D0AF8B8525CAE8050043900B /* Package.swift */,
 				659AF1761BEEF1510031B3A5 /* Voucher */,
 				653F0C771BF18EB400ED30D0 /* VoucherTests */,
 				653F0C501BF18D7B00ED30D0 /* Voucher iOS App */,
@@ -702,7 +704,9 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.rizwansattar.Voucher;
 				PRODUCT_NAME = Voucher;
 				SKIP_INSTALL = YES;
+				SUPPORTS_MACCATALYST = NO;
 				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
@@ -721,7 +725,9 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.rizwansattar.Voucher;
 				PRODUCT_NAME = Voucher;
 				SKIP_INSTALL = YES;
+				SUPPORTS_MACCATALYST = NO;
 				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
 		};
@@ -867,7 +873,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		659AF1881BEEF1510031B3A5 /* Build configuration list for PBXNativeTarget "Voucher iOS" */ = {
+		659AF1881BEEF1510031B3A5 /* Build configuration list for PBXNativeTarget "Voucher-iOS" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				659AF1891BEEF1510031B3A5 /* Debug */,
@@ -885,7 +891,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		659AF1941BEEF1A30031B3A5 /* Build configuration list for PBXNativeTarget "Voucher tvOS" */ = {
+		659AF1941BEEF1A30031B3A5 /* Build configuration list for PBXNativeTarget "Voucher-tvOS" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				659AF1951BEEF1A30031B3A5 /* Debug */,
