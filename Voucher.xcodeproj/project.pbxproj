@@ -7,20 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		653F0C3E1BF18CE900ED30D0 /* VoucherClient.h in Headers */ = {isa = PBXBuildFile; fileRef = 653F0C341BF18CE900ED30D0 /* VoucherClient.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		653F0C3F1BF18CE900ED30D0 /* VoucherClient.h in Headers */ = {isa = PBXBuildFile; fileRef = 653F0C341BF18CE900ED30D0 /* VoucherClient.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		653F0C401BF18CE900ED30D0 /* VoucherClient.m in Sources */ = {isa = PBXBuildFile; fileRef = 653F0C351BF18CE900ED30D0 /* VoucherClient.m */; };
 		653F0C411BF18CE900ED30D0 /* VoucherClient.m in Sources */ = {isa = PBXBuildFile; fileRef = 653F0C351BF18CE900ED30D0 /* VoucherClient.m */; };
-		653F0C441BF18CE900ED30D0 /* VoucherServer.h in Headers */ = {isa = PBXBuildFile; fileRef = 653F0C381BF18CE900ED30D0 /* VoucherServer.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		653F0C451BF18CE900ED30D0 /* VoucherServer.h in Headers */ = {isa = PBXBuildFile; fileRef = 653F0C381BF18CE900ED30D0 /* VoucherServer.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		653F0C461BF18CE900ED30D0 /* VoucherServer.m in Sources */ = {isa = PBXBuildFile; fileRef = 653F0C391BF18CE900ED30D0 /* VoucherServer.m */; };
 		653F0C471BF18CE900ED30D0 /* VoucherServer.m in Sources */ = {isa = PBXBuildFile; fileRef = 653F0C391BF18CE900ED30D0 /* VoucherServer.m */; };
 		653F0C481BF18CE900ED30D0 /* Voucher.h in Headers */ = {isa = PBXBuildFile; fileRef = 653F0C3A1BF18CE900ED30D0 /* Voucher.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		653F0C491BF18CE900ED30D0 /* Voucher.h in Headers */ = {isa = PBXBuildFile; fileRef = 653F0C3A1BF18CE900ED30D0 /* Voucher.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		653F0C4A1BF18CE900ED30D0 /* VoucherCommon.h in Headers */ = {isa = PBXBuildFile; fileRef = 653F0C3B1BF18CE900ED30D0 /* VoucherCommon.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		653F0C4B1BF18CE900ED30D0 /* VoucherCommon.h in Headers */ = {isa = PBXBuildFile; fileRef = 653F0C3B1BF18CE900ED30D0 /* VoucherCommon.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		653F0C4C1BF18CE900ED30D0 /* VoucherStreamsController.h in Headers */ = {isa = PBXBuildFile; fileRef = 653F0C3C1BF18CE900ED30D0 /* VoucherStreamsController.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		653F0C4D1BF18CE900ED30D0 /* VoucherStreamsController.h in Headers */ = {isa = PBXBuildFile; fileRef = 653F0C3C1BF18CE900ED30D0 /* VoucherStreamsController.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		653F0C4E1BF18CE900ED30D0 /* VoucherStreamsController.m in Sources */ = {isa = PBXBuildFile; fileRef = 653F0C3D1BF18CE900ED30D0 /* VoucherStreamsController.m */; };
 		653F0C4F1BF18CE900ED30D0 /* VoucherStreamsController.m in Sources */ = {isa = PBXBuildFile; fileRef = 653F0C3D1BF18CE900ED30D0 /* VoucherStreamsController.m */; };
 		653F0C661BF18DB900ED30D0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 653F0C531BF18D7B00ED30D0 /* LaunchScreen.storyboard */; };
@@ -39,6 +31,14 @@
 		653F0C8A1BF1CF2200ED30D0 /* Voucher.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 659AF1971BEEF1A30031B3A5 /* Voucher.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		653F0C8F1BF1D97900ED30D0 /* RootViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 653F0C8E1BF1D97900ED30D0 /* RootViewController.swift */; };
 		659AF17F1BEEF1510031B3A5 /* Voucher.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 659AF1741BEEF1510031B3A5 /* Voucher.framework */; };
+		D0F634D725CC27C2000D973C /* VoucherServer.h in Headers */ = {isa = PBXBuildFile; fileRef = D0F634D325CC27C1000D973C /* VoucherServer.h */; };
+		D0F634D825CC27C2000D973C /* VoucherServer.h in Headers */ = {isa = PBXBuildFile; fileRef = D0F634D325CC27C1000D973C /* VoucherServer.h */; };
+		D0F634D925CC27C2000D973C /* VoucherClient.h in Headers */ = {isa = PBXBuildFile; fileRef = D0F634D425CC27C1000D973C /* VoucherClient.h */; };
+		D0F634DA25CC27C2000D973C /* VoucherClient.h in Headers */ = {isa = PBXBuildFile; fileRef = D0F634D425CC27C1000D973C /* VoucherClient.h */; };
+		D0F634DB25CC27C2000D973C /* VoucherStreamsController.h in Headers */ = {isa = PBXBuildFile; fileRef = D0F634D525CC27C1000D973C /* VoucherStreamsController.h */; };
+		D0F634DC25CC27C2000D973C /* VoucherStreamsController.h in Headers */ = {isa = PBXBuildFile; fileRef = D0F634D525CC27C1000D973C /* VoucherStreamsController.h */; };
+		D0F634DD25CC27C2000D973C /* VoucherCommon.h in Headers */ = {isa = PBXBuildFile; fileRef = D0F634D625CC27C2000D973C /* VoucherCommon.h */; };
+		D0F634DE25CC27C2000D973C /* VoucherCommon.h in Headers */ = {isa = PBXBuildFile; fileRef = D0F634D625CC27C2000D973C /* VoucherCommon.h */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -91,14 +91,10 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		653F0C341BF18CE900ED30D0 /* VoucherClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VoucherClient.h; sourceTree = "<group>"; };
 		653F0C351BF18CE900ED30D0 /* VoucherClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VoucherClient.m; sourceTree = "<group>"; };
 		653F0C361BF18CE900ED30D0 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = SOURCE_ROOT; };
-		653F0C381BF18CE900ED30D0 /* VoucherServer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VoucherServer.h; sourceTree = "<group>"; };
 		653F0C391BF18CE900ED30D0 /* VoucherServer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VoucherServer.m; sourceTree = "<group>"; };
-		653F0C3A1BF18CE900ED30D0 /* Voucher.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Voucher.h; path = ObjC/Voucher.h; sourceTree = SOURCE_ROOT; };
-		653F0C3B1BF18CE900ED30D0 /* VoucherCommon.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = VoucherCommon.h; path = ObjC/VoucherCommon.h; sourceTree = SOURCE_ROOT; };
-		653F0C3C1BF18CE900ED30D0 /* VoucherStreamsController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = VoucherStreamsController.h; path = ObjC/VoucherStreamsController.h; sourceTree = SOURCE_ROOT; };
+		653F0C3A1BF18CE900ED30D0 /* Voucher.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Voucher.h; path = ObjC/include/Voucher.h; sourceTree = SOURCE_ROOT; };
 		653F0C3D1BF18CE900ED30D0 /* VoucherStreamsController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = VoucherStreamsController.m; path = ObjC/VoucherStreamsController.m; sourceTree = SOURCE_ROOT; };
 		653F0C511BF18D7B00ED30D0 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		653F0C521BF18D7B00ED30D0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -121,6 +117,10 @@
 		659AF1E01BEF1D530031B3A5 /* Voucher tvOS App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Voucher tvOS App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D0AF8B8525CAE8050043900B /* Package.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Package.swift; sourceTree = "<group>"; };
 		D0AF8FC825CB05200043900B /* VoucherSwift.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VoucherSwift.swift; sourceTree = "<group>"; };
+		D0F634D325CC27C1000D973C /* VoucherServer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VoucherServer.h; sourceTree = "<group>"; };
+		D0F634D425CC27C1000D973C /* VoucherClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VoucherClient.h; sourceTree = "<group>"; };
+		D0F634D525CC27C1000D973C /* VoucherStreamsController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VoucherStreamsController.h; sourceTree = "<group>"; };
+		D0F634D625CC27C2000D973C /* VoucherCommon.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VoucherCommon.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -168,7 +168,6 @@
 		653F0C331BF18CE900ED30D0 /* Client */ = {
 			isa = PBXGroup;
 			children = (
-				653F0C341BF18CE900ED30D0 /* VoucherClient.h */,
 				653F0C351BF18CE900ED30D0 /* VoucherClient.m */,
 			);
 			name = Client;
@@ -178,7 +177,6 @@
 		653F0C371BF18CE900ED30D0 /* Server */ = {
 			isa = PBXGroup;
 			children = (
-				653F0C381BF18CE900ED30D0 /* VoucherServer.h */,
 				653F0C391BF18CE900ED30D0 /* VoucherServer.m */,
 			);
 			name = Server;
@@ -257,11 +255,9 @@
 		D0AF8FC325CB03E40043900B /* ObjC */ = {
 			isa = PBXGroup;
 			children = (
+				D0AF8FD725CB170D0043900B /* include */,
 				653F0C331BF18CE900ED30D0 /* Client */,
 				653F0C371BF18CE900ED30D0 /* Server */,
-				653F0C3A1BF18CE900ED30D0 /* Voucher.h */,
-				653F0C3B1BF18CE900ED30D0 /* VoucherCommon.h */,
-				653F0C3C1BF18CE900ED30D0 /* VoucherStreamsController.h */,
 				653F0C3D1BF18CE900ED30D0 /* VoucherStreamsController.m */,
 			);
 			path = ObjC;
@@ -275,6 +271,18 @@
 			path = Swift;
 			sourceTree = "<group>";
 		};
+		D0AF8FD725CB170D0043900B /* include */ = {
+			isa = PBXGroup;
+			children = (
+				D0F634D425CC27C1000D973C /* VoucherClient.h */,
+				D0F634D625CC27C2000D973C /* VoucherCommon.h */,
+				D0F634D325CC27C1000D973C /* VoucherServer.h */,
+				D0F634D525CC27C1000D973C /* VoucherStreamsController.h */,
+				653F0C3A1BF18CE900ED30D0 /* Voucher.h */,
+			);
+			path = include;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
@@ -282,11 +290,11 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				653F0C441BF18CE900ED30D0 /* VoucherServer.h in Headers */,
-				653F0C3E1BF18CE900ED30D0 /* VoucherClient.h in Headers */,
-				653F0C4C1BF18CE900ED30D0 /* VoucherStreamsController.h in Headers */,
-				653F0C4A1BF18CE900ED30D0 /* VoucherCommon.h in Headers */,
+				D0F634D925CC27C2000D973C /* VoucherClient.h in Headers */,
+				D0F634D725CC27C2000D973C /* VoucherServer.h in Headers */,
+				D0F634DD25CC27C2000D973C /* VoucherCommon.h in Headers */,
 				653F0C481BF18CE900ED30D0 /* Voucher.h in Headers */,
+				D0F634DB25CC27C2000D973C /* VoucherStreamsController.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -294,11 +302,11 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				653F0C451BF18CE900ED30D0 /* VoucherServer.h in Headers */,
-				653F0C3F1BF18CE900ED30D0 /* VoucherClient.h in Headers */,
-				653F0C4D1BF18CE900ED30D0 /* VoucherStreamsController.h in Headers */,
-				653F0C4B1BF18CE900ED30D0 /* VoucherCommon.h in Headers */,
+				D0F634DA25CC27C2000D973C /* VoucherClient.h in Headers */,
+				D0F634D825CC27C2000D973C /* VoucherServer.h in Headers */,
+				D0F634DE25CC27C2000D973C /* VoucherCommon.h in Headers */,
 				653F0C491BF18CE900ED30D0 /* Voucher.h in Headers */,
+				D0F634DC25CC27C2000D973C /* VoucherStreamsController.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

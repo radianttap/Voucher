@@ -17,12 +17,12 @@ let package = Package(
 	targets: [
 		.target(
 			name: "VoucherObjC",
-			path: "Voucher/ObjC"
+			path: "ObjC"
 		),
 		.target(
 			name: "VoucherSwift",
 			dependencies: ["VoucherObjC"],
-			path: "Voucher/Swift"
+			path: "Swift"
 		),
 	]
 )

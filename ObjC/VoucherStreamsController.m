@@ -6,7 +6,7 @@
 //  Copyright © 2015 Rizwan Sattar. All rights reserved.
 //
 
-#import <Voucher/VoucherStreamsController.h>
+#import "VoucherStreamsController.h"
 
 static NSUInteger const BUFFER_SIZE = 1024;
 
