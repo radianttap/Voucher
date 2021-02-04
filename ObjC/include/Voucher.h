@@ -16,8 +16,8 @@ FOUNDATION_EXPORT const unsigned char VoucherVersionString[];
 
 // In this header, you should import all the public headers of your framework using statements like #import <Voucher/PublicHeader.h>
 
-#import <Voucher/VoucherCommon.h>
-#import <Voucher/VoucherStreamsController.h>
-#import <Voucher/VoucherClient.h>
-#import <Voucher/VoucherServer.h>
+#import "VoucherCommon.h"
+#import "VoucherStreamsController.h"
+#import "VoucherClient.h"
+#import "VoucherServer.h"
 
